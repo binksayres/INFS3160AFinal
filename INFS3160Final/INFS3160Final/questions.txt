@@ -1,0 +1,10 @@
+﻿What is the battery's name?|txt|Y
+What is the battery's ID?|txt|Y
+How many batteries come in a package?|int|Y
+How much is a single package of batteries?|cur|Y
+How many of this battery is needed an hour?|int|Y
+Is this battery rechargable? (Y)es or (N)o|bool|N
+List the battery's common names (use a ; to separate)|txt|N
+How much does each battery weigh?|dbl|N
+What is the vendor's name?|txt|N
+What is the vendor's ID?|txt|N

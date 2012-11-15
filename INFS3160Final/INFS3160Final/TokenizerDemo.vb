@@ -8,11 +8,5 @@
         Do Until tokens.EOF()
             lst_Tokens.Items.Add(tokens.GetNext())
         Loop
-
-        tokens.MoveFirst()
-
-        Do Until tokens.EOF()
-            lst_Tokens.Items.Add(tokens.GetNext())
-        Loop
     End Sub
 End Class

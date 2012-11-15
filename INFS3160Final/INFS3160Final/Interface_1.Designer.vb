@@ -25,9 +25,9 @@ Partial Class Interface_1
         Me.txt_answers = New System.Windows.Forms.TextBox()
         Me.lbl_title = New System.Windows.Forms.Label()
         Me.lbl_question = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
+        Me.cmd_Previous = New System.Windows.Forms.Button()
+        Me.cmd_Cancel = New System.Windows.Forms.Button()
+        Me.cmd_Next = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'txt_answers
@@ -57,46 +57,46 @@ Partial Class Interface_1
         Me.lbl_question.TabIndex = 2
         Me.lbl_question.Text = "What is the name of the item?"
         '
-        'Button1
+        'cmd_Previous
         '
-        Me.Button1.Location = New System.Drawing.Point(21, 85)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(91, 28)
-        Me.Button1.TabIndex = 1
-        Me.Button1.Text = "<-  Previous"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.cmd_Previous.Location = New System.Drawing.Point(21, 85)
+        Me.cmd_Previous.Name = "cmd_Previous"
+        Me.cmd_Previous.Size = New System.Drawing.Size(91, 28)
+        Me.cmd_Previous.TabIndex = 1
+        Me.cmd_Previous.Text = "<-  Previous"
+        Me.cmd_Previous.UseVisualStyleBackColor = True
         '
-        'Button2
+        'cmd_Cancel
         '
-        Me.Button2.Location = New System.Drawing.Point(161, 85)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(90, 28)
-        Me.Button2.TabIndex = 2
-        Me.Button2.Text = "Cancel"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.cmd_Cancel.Location = New System.Drawing.Point(161, 85)
+        Me.cmd_Cancel.Name = "cmd_Cancel"
+        Me.cmd_Cancel.Size = New System.Drawing.Size(90, 28)
+        Me.cmd_Cancel.TabIndex = 2
+        Me.cmd_Cancel.Text = "Cancel"
+        Me.cmd_Cancel.UseVisualStyleBackColor = True
         '
-        'Button3
+        'cmd_Next
         '
-        Me.Button3.Location = New System.Drawing.Point(295, 85)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(91, 28)
-        Me.Button3.TabIndex = 3
-        Me.Button3.Text = "Next  ->"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.cmd_Next.Location = New System.Drawing.Point(295, 85)
+        Me.cmd_Next.Name = "cmd_Next"
+        Me.cmd_Next.Size = New System.Drawing.Size(91, 28)
+        Me.cmd_Next.TabIndex = 3
+        Me.cmd_Next.Text = "Next  ->"
+        Me.cmd_Next.UseVisualStyleBackColor = True
         '
         'Interface_1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(399, 127)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.cmd_Next)
+        Me.Controls.Add(Me.cmd_Cancel)
+        Me.Controls.Add(Me.cmd_Previous)
         Me.Controls.Add(Me.lbl_question)
         Me.Controls.Add(Me.lbl_title)
         Me.Controls.Add(Me.txt_answers)
         Me.Name = "Interface_1"
-        Me.Text = "Interface_1"
+        Me.Text = "Interface 1"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -104,7 +104,7 @@ Partial Class Interface_1
     Friend WithEvents txt_answers As System.Windows.Forms.TextBox
     Friend WithEvents lbl_title As System.Windows.Forms.Label
     Friend WithEvents lbl_question As System.Windows.Forms.Label
-    Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents Button3 As System.Windows.Forms.Button
+    Friend WithEvents cmd_Previous As System.Windows.Forms.Button
+    Friend WithEvents cmd_Cancel As System.Windows.Forms.Button
+    Friend WithEvents cmd_Next As System.Windows.Forms.Button
 End Class
